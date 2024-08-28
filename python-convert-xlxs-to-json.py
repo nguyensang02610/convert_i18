@@ -28,7 +28,7 @@ def create_js_file(data):
 
 # Đọc file Excel
 # Thay 'input.xlsx' bằng tên file Excel của bạn
-df = pd.read_excel('sorted_output.xlsx')
+df = pd.read_excel('thamDinh.xlsx')
 
 # Chuyển đổi dữ liệu
 data = {}

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Đọc file Excel
-df = pd.read_excel('Book2.xlsx')
+df = pd.read_excel('thamDinh.xlsx')
 
 # Giả sử chuỗi nằm trong cột có tên 'Text'
 # Tính độ dài chuỗi

@@ -53,7 +53,7 @@ def replace_text_with_i18(file_path, constants):
 def main():
     constants_file = 'constants_20240817_162506.js'
     input_file = 'code.txt'
-    output_file = 'output.js'
+    output_file = 'output_file_code.js'
 
     constants = load_constants(constants_file)
     updated_content = replace_text_with_i18(input_file, constants)
